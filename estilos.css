@@ -1,0 +1,60 @@
+.fondo {background-color: rgb(226, 226, 185);}
+
+
+.mitexto
+{ font-family: Arial, sans-serif;
+    font-size: 0,8em;
+color:#0a0101;  
+padding: 1em; 
+}
+
+.titulo { font-family: Arial, sans-serif;
+    font-size: 2,8em;
+color: crimson; 
+text-decoration: underline;
+padding: 1em;
+}
+
+#principal {font-size: 3,5em;}
+
+.logo {
+    width: 300px;
+    padding: 2em;
+ }
+ .logo2 {
+    width: 100px;
+    padding: 1em;
+    
+
+
+ }
+ 
+ #encabezado { 
+ width:fit-content;
+ margin:auto ;
+ border-radius: 5%;
+ transition: 1s;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#encabezado:hover {
+    background-color:white;
+}
+#cuadrodeimagen{
+    
+    width: 30vw;
+    margin: auto;
+    margin-top:1,5em;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titulodenlace{
+    width: 10vw;
+    margin: auto;
+    
+    padding: auto;
+}
